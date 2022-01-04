@@ -3,11 +3,11 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueueBasedStack {
+public class TwoQueuesStack {
     Queue<Integer> queue;
     Queue<Integer> copyQueue;
     Integer top = null;
-    public QueueBasedStack() {
+    public TwoQueuesStack() {
         queue = new LinkedList<>();
         copyQueue = new LinkedList<>();
     }
